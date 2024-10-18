@@ -17,6 +17,6 @@ import pytesseract
 import asyncio
 import nest_asyncio # import nest_asyncio to allow nested event loops
 import google.generativeai as genai
-%env API_KEY=AIzaSyAzMb2NwDnvMkZGQBF_GFBzUarkmdj_BVY
+%env API_KEY=YOUR-API #替換成自己的API
 ```
 
