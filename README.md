@@ -19,6 +19,7 @@
 ```
 ## 匯入模組和文字識別引擎
 ```python
+import requests #網路爬蟲使用
 import discord #匯入discord機器人
 import os #負責與作業系統互動
 from PIL import Image #打開、處理圖像
