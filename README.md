@@ -1,4 +1,10 @@
 # My-advanced-programming-course
+## 語言與環境
+* Python 3.10.12
+* Google Colab
+## Discord機器人開發功能
+* AI互動
+* 圖片轉文字
 ## 安裝一些必要工具和套件
 ```python
 !pip install -q -U google-generativeai #使用Google的AI模型Gemini，要安裝&更新
