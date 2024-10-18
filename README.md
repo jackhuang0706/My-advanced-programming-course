@@ -7,4 +7,4 @@
 !pip install pytesseract pillow discord
 !apt-get install tesseract-ocr
 !apt-get install tesseract-ocr-chi-sim tesseract-ocr-chi-tra  # 安裝中文語言包
-```
+
