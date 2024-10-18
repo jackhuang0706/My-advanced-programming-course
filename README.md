@@ -1,6 +1,6 @@
 # My-advanced-programming-course
 ## 安裝一些必要工具和套件
-```python
+```py
 !pip install -q -U google-generativeai
 !pip install discord
 !pip install nest_asyncio
