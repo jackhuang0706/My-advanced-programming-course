@@ -11,12 +11,12 @@
 ## 匯入模組和文字識別引擎
 ```python
 import discord #匯入discord機器人
-import os
-from PIL import Image
-import pytesseract #
-import asyncio
-import nest_asyncio # import nest_asyncio to allow nested event loops
-import google.generativeai as genai
+import os #負責與作業系統互動
+from PIL import Image #打開、處理圖像
+import pytesseract #搭配Tesseract-OCR引擎來實現圖片轉文字
+import asyncio # 管理事件循環模組
+import nest_asyncio 
+import google.generativeai as genai #匯入AI聊天
 %env API_KEY=YOUR-API #替換成自己的API 
 ```
 
