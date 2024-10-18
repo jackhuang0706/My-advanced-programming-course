@@ -28,4 +28,9 @@ import nest_asyncio
 import google.generativeai as genai #匯入AI聊天
 %env API_KEY=YOUR-API #替換成自己的API 
 ```
+## 語言包安裝及設定路徑
+```python
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract' #設定路徑
+custom_config = r'--oem 3 --psm 6 -l chi_sim+chi_tra' #使用中文語言包並加入參數
+```
 
